@@ -10,6 +10,7 @@ python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
 
+
 ###Train
 python -m src.training.train
 # model saved to models/xgb_fraud.joblib
