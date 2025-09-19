@@ -13,8 +13,9 @@ pip install -r requirements.txt
 
 
 ###Train
-python -m src.training.train
+```python -m src.training.train
 # model saved to models/xgb_fraud.joblib
+```
 
 ###Serve API
 python -m uvicorn src.serve.app:app --host 127.0.0.1 --port 8000 --reload
