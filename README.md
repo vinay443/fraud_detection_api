@@ -9,6 +9,7 @@ Production-style MLOps project: train XGBoost on the Kaggle credit-card dataset,
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
+```
 
 
 ###Train
