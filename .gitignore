@@ -1,0 +1,11 @@
+# venv
+.venv/
+# Python
+__pycache__/
+*.pyc
+# Local data and artifacts
+data/
+models/
+# OS/editor
+.DS_Store
+.vscode/
